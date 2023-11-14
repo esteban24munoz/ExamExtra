@@ -1,0 +1,29 @@
+﻿  main.cpp
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(5,20): error C2065: 'T2': identificador no declarado
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(17): message : Vea la referencia a la creación de una instancia de clase plantilla "Stack<T,SIZE>" que se está compilando
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(5,10): error C2923: 'std::vector': 'T2' no es un argumento de tipo plantilla válido para el parámetro '_Alloc'
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(5): message : vea la declaración de 'T2'
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(6,20): error C2065: 'T2': identificador no declarado
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(6,10): error C2923: 'std::vector': 'T2' no es un argumento de tipo plantilla válido para el parámetro '_Alloc'
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(6): message : vea la declaración de 'T2'
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(17,26): error C2512: 'std::vector': no hay disponible un constructor predeterminado adecuado
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(496,1): message : vea la declaración de 'std::vector'
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(17,1): message : Diagnóstico en la función 'Stack<int,100>::Stack(void)' generada por el compilador
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(17): message : ver la referencia a la función "Stack<int,100>::Stack(void)"
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(17,35): error C2512: 'std::vector': no hay disponible un constructor predeterminado adecuado
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(496,1): message : vea la declaración de 'std::vector'
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(17,1): message : Diagnóstico en la función 'Stack<std::string,100>::Stack(void)' generada por el compilador
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(17): message : ver la referencia a la función "Stack<std::string,100>::Stack(void)"
+  stack.cpp
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(5,10): error C2039: "vector": no es un miembro de "std"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\exception(214): message : vea la declaración de 'std'
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(17): message : Vea la referencia a la creación de una instancia de clase plantilla "Stack<T,SIZE>" que se está compilando
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(5,16): error C2143: error de sintaxis: falta ';' delante de '<'
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(5,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(5,20): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(6,10): error C2039: "vector": no es un miembro de "std"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\exception(214): message : vea la declaración de 'std'
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(6,16): error C2143: error de sintaxis: falta ';' delante de '<'
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(6,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\ESTEBAN\Documents\HARDING UNIVERSITY\FALL_2023\OOP\Projectz C++\Test_and_Learn\Templates\stack.hpp(6,20): error C2238: símbolos (token) inesperados delante de ';'
+  Generando código...
